@@ -14,7 +14,7 @@ Additional libraries:
 
 1. Ensure python3 and pip3 are installed
 2. Download alameda_covid source code
-3. Run `bootsrap.sh`
+3. Run `bootstrap.sh`
 
 ## Installation (Windows - Anaconda)
 
