@@ -1,0 +1,2 @@
+IncidentID	LastName	FirstName	MiddleName	NameSuffix	SSN	DOB	Age	Ethnicity	Race	Address	AptNo	City	State	Zip	CTract	CensusBlock	Latitude	Longitude	CntyOfResid	CntyGEO	Sex	Guardian	LHJ	PStatus
+9999999	Beyers	Matt	NA	NA	NA	1964-07-13	55	Not Hispanic or Latino	White	1000 Broadway	NA	Oakland	CA	94607	NA	NA	37.000000	-122.000000	Alameda	Alameda	M	NA	Alameda	Under Investigation
