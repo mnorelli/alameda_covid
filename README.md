@@ -7,6 +7,7 @@ Requires Python 3.6
 
 Additional libraries:
 - pandas
+- geopy
 - geopandas
 
 ## How to run
