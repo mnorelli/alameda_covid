@@ -18,7 +18,7 @@ Additional libraries:
 
 ## Installation (Windows - Anaconda)
 
-1. Download alameda_covid srouce code
+1. Download alameda_covid source code
 2. Install Anaconda (https://anaconda.com)
 3. Launch *Anaconda PowerShell Prompt*
 4. Run `bootstrap.bat` (Acknowledge all prompts)
