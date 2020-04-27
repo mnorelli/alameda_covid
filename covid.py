@@ -6,15 +6,22 @@ Created on Sun Apr 19 17:28:12 2020
 """
 import sys
 import pandas as pd
-import geopandas as gpd
 from geopandas.tools import geocode
+from geopy.geocoders import ArcGIS
 
 def geo_code(df):
     df_new = df.copy()
     address = df.Address + ', ' + df.City + ', ' + df.State + ' ' + df.Zip.map(str)
-    geo = geocode(address, provider='nominatim')
+    try:
+        geo = geocode(address, provider='arcgis')
+    except:
+        print('Error geocoding address. Aborting script')
+        sys.exit()
+    
     df_new['Longitude'] = geo.geometry.x
     df_new['Latitude'] = geo.geometry.y
+    df_new['AddressFound'] = geo.address
+    
     return df_new
 
 if __name__ == "__main__":
